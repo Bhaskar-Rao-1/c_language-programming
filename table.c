@@ -2,13 +2,13 @@
 
 int main()
 {
+    printf("enter number");
     int n;
-    printf("Ente num: ");
     scanf("%d",&n);
-
-    for(int i = 0; i <= 10; i++)
-    {
-        printf("%d X %d = %d\n",n,i,n*i);
+    int i;
+    for(i=1;i<=10;i++){
+    printf("%d X %d = %d\n",n,i,n*i);
+    
     }
     return 0;
 }
