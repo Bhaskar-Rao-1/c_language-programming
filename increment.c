@@ -2,9 +2,18 @@
 
 int main()
 {
-    //increment----pre-increment(++i)-----post-increment(i++)
-    int i = 10;
-    ++i;
-    printf("%d",i++);
-    printf("\n%d",i);
+     int i=1;
+    printf("%d\n",i++);
+    printf("%d\n",i);
+    
+    printf("%d\n",++i);
+    printf("%d\n",i);
+    
+    
+    printf("%d\n",i--);
+    printf("%d\n",i);
+    
+    printf("%d\n",--i);
+    printf("%d",i);
+    return 0;
 }
