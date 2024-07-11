@@ -1,11 +1,11 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 int main()
 {
-    char name[100];
-    fgets(name,100,stdin);
-    int k=strlen(name);
-    printf("%d",k-1);
-
+    char str[100];
+    gets(str,100,stdin);
+    puts(str);
+    int Len=strlen(str);
+    printf("%d", Len);
     return 0;
 }
