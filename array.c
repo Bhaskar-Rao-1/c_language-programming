@@ -2,20 +2,19 @@
 
 int main()
 {
-    int marks[3];
-    printf("Enter phys marks\n");
+    int marks[6];
+    printf("enter phy marks\n");
     scanf("%d",&marks[0]);
-
-    printf("Enter mat\n");
+    printf("enter chem marks\n");
     scanf("%d",&marks[1]);
-
-    printf("Enter chem\n");
+    printf("enter maths marks\n");
     scanf("%d",&marks[2]);
-
-
-   for(int i=0;i<3;i++){
-
-    printf("%d\n",marks[i]);
-    }
+    printf("enter eng marks\n");
+    scanf("%d",&marks[3]);
+    printf("enter san marks\n");
+    scanf("%d",&marks[4]);
+    
+    
+    printf("phy %d, che %d, mat %d eng %d san %d",marks[0],marks[1],marks[2],marks[3],marks[4]);
     return 0;
 }
